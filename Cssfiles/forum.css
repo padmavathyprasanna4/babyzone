@@ -1,0 +1,378 @@
+body{
+    font-family: "Quicksand", sans-serif;
+ }
+ .navbar-custom {
+     padding: 10px 15px;
+ }
+
+ .logo-img {
+     height: 85px;
+ }
+
+ .search-box {
+     border: 2px solid black;
+     border-radius: 50px;
+     padding: 6px 15px;
+     display: flex;
+     align-items: center;
+     width: 100%;
+     max-width: 350px;
+     background: #fff;
+ }
+
+ .search-box input {
+     border: none;
+     outline: none;
+     box-shadow: none;
+     flex: 1;
+     padding-left: 10px;
+ }
+
+ .mic-icon {
+     width: 48px;
+     height: 48px;
+     border: 2px solid black;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 10px;
+ }
+
+ .nav-link.active {
+     color: red !important;
+     font-weight: bold;
+ }
+
+ .nav-link {
+     color: black !important;
+     font-weight: 500;
+ }
+
+ .cart-icon {
+     font-size: 22px;
+ }
+
+ @media (max-width: 1024px) {
+     .search-wrapper {
+         margin-top: 10px;
+         width: 100%;
+     }
+
+     .navbar-collapse {
+         margin-top: 10px;
+     }
+
+     .mic-icon {
+         margin-top: 10px;
+     }
+ }
+ .top-banner {
+      background-color: #ffeb3b;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .category-bar {
+    background-color: #eb7dcf;
+}
+   
+    .nav-link {
+      color: black !important;
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+    .dropdown-toggle::after {
+      margin-left: 0.4rem;
+    }
+    .dropdown-item {
+      position: relative;
+    }
+
+    .dropdown-item:hover .mega-menu {
+      display: block;
+    }
+     
+
+    .mega-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100vw;
+      background: #fff;
+      z-index: 9999;
+      border-top: 1px solid #dee2e6;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .mega-menu-inner {
+      max-height: 65vh;
+      overflow-y: auto;
+      padding: 2rem 1rem;
+      padding-right: 1rem;
+      box-sizing: content-box;
+    }
+
+    .mega-menu-inner::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
+
+    .mega-menu-inner {
+      scrollbar-width: none;
+      /* Firefox */
+      -ms-overflow-style: none;
+      /* IE/Edge */
+    }
+
+    .mega-column h6 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .mega-column a {
+      display: block;
+      color: #212529;
+      text-decoration: none;
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    .mega-column a:hover {
+      color: #0d6efd;
+    }
+
+    @media (min-width: 992px) {
+      .mega-row>.col-lg-2 {
+        width: 20%;
+      }
+    }
+     .login-container {
+      max-width: 700px;
+      margin: 40px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: #d77fc5;
+    }
+    .login-image img {
+      width: 100%;
+      height: 60%;
+      object-fit: fill;
+      margin-top: 110px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      padding-left: 30px;
+    }
+    .modal-content {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+    }
+.separator {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .separator::before,
+    .separator::after {
+      content: '';
+      flex: 1;
+      border-bottom: 1px solid #ccc;
+    }
+    .separator:not(:empty)::before {
+      margin-right: .75em;
+    }
+    .separator:not(:empty)::after {
+      margin-left: .75em;
+    }
+     .forum-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      height: 110%;
+      border: solid black;
+    }
+
+    .forum-card img {
+      width: 120%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .forum-overlay {
+      position: absolute;
+      bottom: 0;
+      width: 110%;
+      background: rgba(0, 0, 0, 0.6); /* black transparent */
+      color: white;
+    
+      text-align: left;
+    }
+
+    .forum-overlay p {
+      margin-bottom: 15px;
+    }
+
+    .forum-overlay .btn {
+      border: none;
+      border-radius: 10px;
+      padding: 5px 20px;
+    }
+
+    .forum-overlay .btn:hover {
+      background-color: #e6c200;
+    }
+    .blog-item {
+      background-color: #ffffff;
+      border: 1px solid #000000;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .blog-img {
+      width: 250px;
+      height: 250px;
+      border-radius: 0.5rem;
+    }
+   
+    .btn-orange:hover {
+      background-color: #ff8800;
+    }
+
+
+h2 {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="password"] {
+  letter-spacing: 2px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px;
+}
+
+.password-container .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-btn {
+  background-color: #f1b86e;
+  color: black;
+}
+
+
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.modal-body {
+      background-color: #d385b5; /* pink background */
+      border-radius: 15px;
+      padding: 20px;
+      color: black;
+    }
+     .footer {
+            background-color: #eb7dcf; /* Light pink background */
+            padding: 40px 0;
+            color: #090909;
+        }
+
+        .footer .footer-logo {
+            max-width: 100px;
+        }
+
+       
+
+        .footer .footer-section h6 {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .footer .footer-links a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        
+        .footer .social-icons a {
+            color: #333;
+            font-size: 1.1rem;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .footer .social-icons a:hover {
+            color: #ff6f61;
+        }
+
+        .footer .address p {
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .footer .row {
+                text-align: center;
+            }
+
+            .footer .footer-section {
+                margin-bottom: 5px;
+            }
+        }
+

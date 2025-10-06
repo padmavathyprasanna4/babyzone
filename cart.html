@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Cssfiles/cart.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<!-- Top Banner -->
+  <!-- Top Banner -->
+  <div class="top-banner">
+    Get ₹250 additional off on cart value of ₹2999 and above
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="Productimages/navlogo.png" alt="BabyZone Logo" class="logo-img">
+      </a>
+
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Search bar & Nav content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Search -->
+        <div class="d-lg-flex align-items-center ms-lg-3 flex-grow-1 search-wrapper">
+          <div class="search-box me-2">
+            <i class="bi bi-search"></i>
+            <input class="form-control" type="search" placeholder="Search here" aria-label="Search">
+          </div>
+          <div class="mic-icon">
+            <i class="bi bi-mic"></i>
+          </div>
+        </div>
+
+        <!-- Nav links -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forum.html">Forum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="parenting.html">Parenting classes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">Register</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active cart-icon" href="cart.html">Cart<i class="bi bi-cart3"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Category Navigation -->
+  <nav class="navbar navbar-expand-lg category-bar">
+    <div class="container-fluid justify-content-between">
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item px-3">
+          <div class="dropdown-item">
+           <a class="nav-link d-flex align-items-center" href="#">
+            All categories
+            <span class="ms-1"><i class="bi bi-chevron-down"></i></span>
+          </a>
+            <div class="mega-menu">
+              <div class="container-fluid mega-menu-inner">
+                <div class="row mega-row gy-4">
+                  <!-- Column 1 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>New Baby Clothing</h6>
+                    <a href="#">New born Onesis & rompers</a>
+                    <a href="#">New born nightwear & sleesuits</a>
+                    <a href="#">New born baby sets & suits</a>
+                    <a href="#">New born dresses & frocks</a>
+                    <a href="#">New born baby leggings & shorts</a>
+                    <a href="#">New born baby t-shirts</a>
+                    <a href="#">New born caps, gloves & mittens</a>
+                    <a href="#">New born inner wear</a>
+                    <a href="#">New born baby jackets</a>
+                    <a href="#">New born baby sweaters</a>
+                    <h6>Baby boys clothing</h6>
+                    <a href="#">Baby boys t-shirts</a>
+                    <a href="#">Baby boys shirts</a>
+                    <a href="#">Baby boys jeans & trousers</a>
+                    <a href="#">Baby boys shorts</a>
+                    <a href="#">Baby boys innerwear & thermols</a>
+                    <a href="#">Baby boys socks</a>
+                    <a href="#">Baby boys sweat shirts & jackets</a>
+                    <a href="#">Baby boys sweaters</a>
+                    <a href="#">Baby boys swim wear</a>
+                    <a href="#">Baby boys sets & suits</a>
+                  </div>
+
+                  <!-- Column 2 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby Footwear</h6>
+                    <a href="#">Baby Booties</a>
+                    <h6>Kids Footwear</h6>
+                    <a href="#">Kids casual shoes</a>
+                    <a href="#">Kids sneakers & sports shoes</a>
+                    <a href="#">Kids bellies</a>
+                    <a href="#">Kids sandals</a>
+                    <a href="#">Kids flip flops</a>
+                    <h6>Fashion Accessories</h6>
+                    <a href="#">Kids bags</a>
+                    <a href="#">Kids hair accessories </a>
+                    <a href="#">Kids caps & gloves</a>
+                    <a href="#">Kids scarfs</a>
+                    <h6>Baby hair care</h6>
+                    <a href="#">Baby shampoo</a>
+                    <a href="#">Baby conditionar </a>
+                    <a href="#">Baby hair oil</a>
+                    <h6>Baby gromming</h6>
+                    <a href="#">Baby toothpaste</a>
+                    <a href="#">Baby brush & comb</a>
+                    <a href="#">Baby nail cutter</a>
+                  </div>
+
+                  <!-- Column 3 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Breast Feeding</h6>
+                    <a href="#">Electric breast pump</a>
+                    <a href="#">Manual breast pump</a>
+                    <a href="#">Feeding shawls</a>
+                    <a href="#">Breast pads</a>
+                    <h6 class="mt-3">Maternity pillows</h6>
+                    <a href="#">Feeding pillows</a>
+                    <h6 class="mt-3">Maternity clothing</h6>
+                    <a href="#">Maternity Lingerie</a>
+                    <a href="#">Maternity botton wear</a>
+                    <a href="#">Maternity sleep wear</a>
+                    <a href="#">Maternity tops</a>
+                    <a href="#">Maternity cloths</a>
+                    <h6 class="mt-3">Diaper Bags</h6>
+                    <a href="#">Diaper Bags</a>
+                    <h6 class="mt-3">Bath Accessories</h6>
+                    <a href="#">Baby bath tub</a>
+                    <a href="#">Baby Bather & chair</a>
+                    <a href="#">Baby Bath sponge</a>
+                    <a href="#">Baby Bath stand</a>
+                    <a href="#">Baby Quick dry sheets</a>
+                  </div>
+
+                  <!-- Column 4 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6 class="mt-3">Maternity clothing</h6>
+                    <a href="#">Stretch mark cream</a>
+                    <a href="#">Maternity pads</a>
+                    <a href="#">Disposable Maternity panties</a>
+                    <a href="#">Maternity bed mats</a>
+                    <h6 class="#">Maternity clothing</h6>
+                    <a href="#">Bibs & burp cloths</a>
+                    <a href="#">Feeding bottles</a>
+                    <a href="#">Muslin cloth</a>
+                    <a href="#">Soothers and spacifiers</a>
+                    <a href="#">Teethers & nipblers</a>
+                    <a href="#">Baby food storage & milk storages</a>
+                    <a href="#">Baby sippers & cups</a>
+                    <a href="#">Weaning plates & bowls</a>
+                    <a href="#">Kids waterbottles </a>
+                    <a href="#">Bottle warmer & Sterilizers</a>
+                    <a href="#">Stretch mark cream</a>
+
+                  </div>
+
+                  <!-- Column 5 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby Skin Care</h6>
+                    <a href="#">Baby body oil</a>
+                    <a href="#">Baby massage oil</a>
+                    <a href="#">Baby body lotion</a>
+                    <a href="#">Baby body wash</a>
+                    <a href="#">Baby wipes</a>
+                    <a href="#">Baby diaper rash cream</a>
+                    <a href="#">Baby powder</a>
+                    <h6 class="#">Health & Safty</h6>
+                    <a href="#">Baby care equipments</a>
+                    <a href="#">Detergents & cleansers</a>
+                    <a href="#">Humidifiers </a>
+                    <a href="#">Baby body wash</a>
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item px-3">
+          <div class="dropdown-item">    
+            <a class="nav-link d-flex align-items-center" href="babyFashion.html">
+            BabyFashion
+            <span class="ms-1"><i class="bi bi-chevron-down"></i></span>
+          </a>
+
+            <div class="mega-menu">
+              <div class="container-fluid mega-menu-inner">
+                <div class="row mega-row gy-4">
+
+
+                  <!-- Column 1 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>New Baby Clothing</h6>
+                    <a href="#">New born Onesis & rompers</a>
+                    <a href="#">New born nightwear & sleesuits</a>
+                    <a href="#">New born baby sets & suits</a>
+                    <a href="#">New born dresses & frocks</a>
+                    <a href="#">New born baby leggings & shorts</a>
+                    <a href="#">New born baby t-shirts</a>
+                    <a href="#">New born caps, gloves & mittens</a>
+                    <a href="#">New born inner wear</a>
+                    <a href="#">New born baby jackets</a>
+                    <a href="#">New born baby sweaters</a>
+                  </div>
+
+                  <!-- Column 2 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby Boys Clothing</h6>
+                    <a href="#">Baby boys t-shirts</a>
+                    <a href="#">Baby boys shirts</a>
+                    <a href="#">Baby boys jeans & trousers</a>
+                    <a href="#">Baby boys shorts</a>
+                    <a href="#">Baby boys innerwear & thermols</a>
+                    <a href="#">Baby boys socks</a>
+                    <a href="#">Baby boys sweat shirts & jackets</a>
+                    <a href="#">Baby boys sweaters</a>
+                    <a href="#">Baby boys swim wear</a>
+                    <a href="#">Baby boys sets & suits</a>
+                  </div>
+
+                  <!-- Column 3 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby Girls Clothing</h6>
+                    <a href="#">Baby girls tops</a>
+                    <a href="#">Baby girls t-shirts </a>
+                    <a href="#">Baby girls dress & frocks</a>
+                    <a href="#">Baby girls leggings</a>
+                    <a href="#">Baby girls innerwear & thermols</a>
+                    <a href="#">Baby girls socks</a>
+                    <a href="#">Baby boys sweat shirts & jackets</a>
+                    <a href="#">Baby boys sweaters</a>
+                    <a href="#">Baby boys swim wears</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item px-3">
+          <a class="nav-link" href="toys.html">Toys</a>
+          
+        </li>
+        <li class="nav-item px-3">
+          <div class="dropdown-item">
+            <a class="nav-link d-flex align-items-center" href="footwear.html">
+            Footwear and Accessories
+            <span class="ms-1"><i class="bi bi-chevron-down"></i></span>
+          </a>
+            <div class="mega-menu">
+              <div class="container-fluid mega-menu-inner">
+                <div class="row mega-row gy-4">
+
+
+                  <!-- Column 1 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby Footwear</h6>
+                    <a href="#">Baby Booties</a>
+                  </div>
+
+                  <!-- Column 2 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Kids Footwear</h6>
+                    <a href="#">Kids casual shoes</a>
+                    <a href="#">Kids sneakers & sports shoes</a>
+                    <a href="#">Kids bellies</a>
+                    <a href="#">Kids sandals</a>
+                    <a href="#">Kids flip flops</a>
+                  </div>
+
+                  <!-- Column 3 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Fashion Accessories</h6>
+                    <a href="#">Kids bags</a>
+                    <a href="#">Kids hair accessories </a>
+                    <a href="#">Kids caps & gloves</a>
+                    <a href="#">Kids scarfs</a>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item px-3">
+          <div class="dropdown-item">
+            <a class="nav-link d-flex align-items-center" href="babycare.html">
+            Moms and Babycare
+            <span class="ms-1"><i class="bi bi-chevron-down"></i></span>
+          </a>
+            <div class="mega-menu">
+              <div class="container-fluid mega-menu-inner">
+                <div class="row mega-row gy-4">
+
+                  <!-- Column 1 -->
+                  <div class="col-6 col-sm-6 col-lg-2 mega-column">
+                    <h6>Breast Feeding</h6>
+                    <a href="#">Electric breast pump</a>
+                    <a href="#">Manual breast pump</a>
+                    <a href="#">Feeding shawls</a>
+                    <a href="#">Breast pads</a>
+                    <h6 class="mt-3">Maternity clothing</h6>
+                    <a href="#">Stretch mark cream</a>
+                    <a href="#">Maternity pads</a>
+                    <a href="#">Disposable Maternity panties</a>
+                    <a href="#">Maternity bed mats</a>
+
+                  </div>
+
+                  <!-- Column 2 -->
+                  <div class="col-6 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby hair care</h6>
+                    <a href="#">Baby shampoo</a>
+                    <a href="#">Baby conditionar </a>
+                    <a href="#">Baby hair oil</a>
+                    <h6 class="#">Maternity clothing</h6>
+                    <a href="#">Bibs & burp cloths</a>
+                    <a href="#">Feeding bottles</a>
+                    <a href="#">Muslin cloth</a>
+                    <a href="#">Soothers and spacifiers</a>
+                    <a href="#">Teethers & nipblers</a>
+                  </div>
+
+                  <!-- Column 3 -->
+                  <div class="col-6 col-sm-6 col-lg-2 mega-column">
+                    <h6 class="#">Maternity clothing</h6>
+                    <a href="#">Bibs & burp cloths</a>
+                    <a href="#">Feeding bottles</a>
+                    <a href="#">Muslin cloth</a>
+                    <a href="#">Soothers and spacifiers</a>
+                    <a href="#">Teethers & nipblers</a>
+                    <a href="#">Baby food storage & milk storages</a>
+                    <a href="#">Baby sippers & cups</a>
+                    <a href="#">Weaning plates & bowls</a>
+                    <a href="#">Kids waterbottles </a>
+                    <a href="#">Bottle warmer & Sterilizers</a>
+                    <a href="#">Stretch mark cream</a>
+                    <a href="#">Booties</a>
+                    <a href="#">Sandals</a>
+                    <a href="#">Shoes</a>
+                    <a href="#">Socks</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item px-3">
+          <div class="dropdown-item">
+            <a class="nav-link d-flex align-items-center" href="furniture.html">
+            Furniture and Bedding
+            <span class="ms-1"><i class="bi bi-chevron-down"></i></span>
+          </a>
+            <div class="mega-menu">
+              <div class="container-fluid mega-menu-inner">
+                <div class="row mega-row gy-4">
+
+                  <!-- Column 1 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby Bedding</h6>
+                    <a href="#">Baby Bedding sets</a>
+                    <a href="#">Baby Cot sheets & Crib sheets</a>
+                    <a href="#">Baby Matress</a>
+                    <a href="#">Baby Mosquito nets</a>
+                    <a href="#">Baby pillows</a>
+                  </div>
+
+                  <!-- Column 2 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Baby Furniture & Storage</h6>
+                    <a href="#">Baby cards & cribs</a>
+                    <a href="#">Travel baby bed</a>
+                    <a href="#">Baby storage cabinets</a>
+                  </div>
+
+                  <!-- Column 3 -->
+                  <div class="col-12 col-sm-6 col-lg-2 mega-column">
+                    <h6>Blankets, Quilts & Wrapes</h6>
+                    <a href="#">Baby Blankets</a>
+                    <a href="#">Swadles</a>
+                    <a href="#">Baby quilts & comforts</a>
+                    <a href="#">Sleeping Bags</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="rentalservice.html">Rental Services</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="#">Offers</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Baby Fashion</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Mothercare Junior Boys Striped Polo Shirt - Blue</li>
+          <li class="breadcrumb-item active" aria-current="page">Cart</li>
+        </ol>
+      </nav>
+
+      <!-- Cart Table -->
+      <h4 class="cart-header text-center">Cart</h4>
+      <table class="table cart-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Qty</th>
+            <th>Age</th>
+            <th>Price</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="Productimages/babyFashionImages/fashion1.png" alt="Product" class="product-img"> Mothercare
+              Junior Boys Game Day Everley Striped Polo Shirt - Blue
+            </td>
+            <td>
+              <input type="number" class="form-control" value="1" style="width: 60px;">
+            </td>
+            <td>0-12M</td>
+            <td>₹1,699</td>
+            <td><span class="remove-btn">🗑️</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Checkout Button -->
+      <div class="d-flex justify-content-between">
+        <div></div>
+        <a class="btn" href="checkout.html"><button class="checkout-btn">Checkout</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<section>
+  <h4 class=" text-start ms-5">You might also like</h4>
+  <div class="container-item">
+    <div id="productCarousel" class="carousel slide">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+         <!--card 1-->
+        <div class="carousel-item active">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="product-card">
+                <img src="Productimages/babyFashionImages/fashion7.png" alt="Blue Polo">
+                <p class="product-title mt-2 fw-bold text-start">Cotton Knit Full Sleeves T-Shirt with Frock Floral
+                  Print - White &
+                  Green</p>
+                <p class="text-start">Price: ₹ 830<br>
+                  Age: 0-12m, 3-4y, 4-5y</p>
+                <p class="color-dots text-start">Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!---card2-->
+            <div class="col-md-3">
+              <div class="product-card">
+                <img src="Productimages/babyFashionImages/fashion2.png" alt="Blue Polo">
+                <p class="product-title mt-2 fw-bold text-start">Single Jersey Knit Half Sleeves T-Shirt & Short Set With Avenger
+                  Graphics</p>
+                <p class="text-start">Price: ₹ 1,699<br>
+                Age: 0-12m, 3-4y, 4-5y<br>
+                <p class="color-dots text-start">
+                  Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!---card 3-->
+            <div class="col-md-3">
+              <div class="product-card">
+                <img src="Productimages/babyFashionImages/fashion9.png" alt="Blue Polo">
+                <p class="product-title mt-2 fw-bold text-start">Babyhug Sleeveless Kotta Printed Ethnic Dress Floral Embroidery -
+                Orange</p>
+              <p class="text-start">Price: ₹ 890<br>
+              Age: 0-12m, 3-4y, 4-5</p>
+               <p class="color-dots text-start">
+                  Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!--card 4-->
+            <div class="col-md-3">
+              <div class="product-card">
+                <img src="Productimages/babyFashionImages/fashion4.png" alt="Blue Polo">
+                <p class="product-title mt-2 fw-bold text-start">Babyhug Organic Cotton Knit Full Sleeves Sweater Sets with Cap</p>
+                <p class="text-start">Price: ₹ 930<br>
+                Age: 0-12m, 3-4y, 4-5y<br>
+                <p class="color-dots text-start">
+                  Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right icon only -->
+          <button class="carousel-control-next ms-4" type="button" data-bs-target="#productCarousel"
+            data-bs-slide="next">
+            <span class="bi bi-arrow-right-circle carousel-control-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+        <!-- Slide 2 -->
+         <!--card 5-->
+        <div class="carousel-item">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="product-card">
+               <img src="Productimages/babyFashionImages/fashion5.png" alt="Blue Polo">
+                <p class="product-title mt-2 fw-bold text-start">Cotton Woven Full Sleeves Floral Printed Kurta & Pyjama Set-Red</p>
+                <p class="text-start">Price: ₹ 960<br>
+                Age: 0-12m, 3-4y, 4-5y<br>
+                <p class="color-dots text-start">
+                  Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!--card 6-->
+            <div class="col-md-3">
+              <div class="product-card">
+                 <img src="Productimages/babyFashionImages/fashion6.png" alt="Blue Polo">
+                <p class="product-title mt-2 fw-bold text-start">Woven Half Puff Sleeves Ethnic Dress With Floral & Sequin
+                Embroidery- Pink</p>
+                <p class="text-start">Price: ₹ 1699<br>
+                   Age: 0-12m, 3-4y, 4-5y<br>
+                <p class="color-dots text-start">
+                  Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!--card 7-->
+            <div class="col-md-3">
+              <div class="product-card">
+                <img src="Productimages/babyFashionImages/fashion7.png" alt="Expedition Seat">
+                <p class="product-title fw-bold text-start">Cotton Knit Full Sleeves T-Shirt with Frock Floral Print - White &
+                Green</p>
+                 <p class="text-start">Price: ₹ 830<br>
+                   Age: 0-12m, 3-4y, 4-5y<br>
+                <p class="color-dots text-start">
+                  Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div> 
+              </div>
+            </div>
+            <!--card 8-->
+            <div class="col-md-3">
+              <div class="product-card">
+                <img src="Productimages/babyFashionImages/fashion8.png" alt="Jack N Jill Seat">
+                <p class="product-title fw-bold text-start">Organic Cotton Knit Full Sleeves Sweater Sets with Cap & Tiger
+                Design</p>
+                  <p class="text-start">Price: ₹ 1599<br>
+                   Age: 0-12m, 3-4y, 4-5y<br>
+                <p class="color-dots text-start">
+                  Color:
+                  <span style="background: red;"></span>
+                  <span style="background: pink;"></span>
+                  <span style="background: black;"></span>
+                  <span style="background: blue;"></span>
+                </p>
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning w-50">Buy Now</button>
+                  <button class="btn btn-outline-warning w-50">Add to cart</button>
+                </div> 
+              </div>
+            </div>
+          </div>
+
+          <!-- Left icon only -->
+          <button class="carousel-control-prev me-5" type="button" data-bs-target="#productCarousel"
+            data-bs-slide="prev">
+            <span class="bi bi-arrow-left-circle carousel-control-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="d-flex justify-content-center mb-4 mt-4">
+        <div></div>
+        <a class="btn" href="babyFashion.html"><button class="checkout-btn">Continue Shopping</button></a>
+      </div>
+
+
+
+  <!-- Modal Login Form -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="background-color: #d77fc5;">
+            <div class="modal-body p-0">
+                <div class="row g-0">
+                    <!-- Left Image -->
+                    <div class="col-md-6 login-image">
+                        <img src="Productimages/forumimages/forum8.png" alt="Sleeping baby with teddy bear"
+                            style="width:100%; height:60%; object-fit:fill; margin-top:110px; margin-bottom:20px; border-radius:15px; padding-left:30px;">
+                    </div>
+
+                    <!-- Right Login Form -->
+                    <div class="col-md-6 p-4">
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <h3 class="mb-4">Log In</h3>
+
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+
+                            <div class="mb-3 position-relative">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Enter your password">
+                            </div>
+
+                            <div class="mb-3 text-end">
+                                <a href="#" class="text-decoration-none">Forget password?</a>
+                            </div>
+
+                            <button type="submit" class="btn btn-warning w-100 mb-3">Log In</button>
+
+                            <div class="text-center">
+                                <span>Don't have an account? <a href="#" data-bs-toggle="modal"
+                                        data-bs-target="#registerModal">Register</a></span>
+                            </div>
+
+                            <div class="separator">or</div>
+
+                            <button type="button" class="btn btn-outline-dark bg-white text-dark w-100 mb-2">
+                                <i class="fab fa-google me-2" style="color:#DB4437;"></i>Continue with Google
+                            </button>
+
+                            <button type="button" class="btn btn-outline-dark bg-white text-dark w-100">
+                                <i class="fab fa-facebook me-2" style="color:#1877F2;"></i>Continue with Facebook
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal with minimal .modal-content -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="container login-container rounded overflow-hidden">
+            <div class="row g-0">
+                <!-- Left Image -->
+                <div class="col-md-6 login-image">
+                    <img src="Productimages/register.png" alt="Sleeping baby with teddy bear">
+                </div>
+
+                <!-- Right Form -->
+                <div class="col-md-6 p-4">
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <h3 class="mb-4 text-center">Register</h3>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+
+                        <button type="submit" class="btn btn-warning w-100 mb-3">Register</button>
+
+                        <div class="text-center">
+                            <span>Already have an account? <a href="#" data-bs-toggle="modal"
+                                    data-bs-target="#loginModal">Log
+                                    In</a></span>
+                        </div>
+
+                        <div class="separator">or</div>
+
+                        <button type="button" class="btn btn-outline-dark bg-white text-dark w-100 mb-2">
+                            Continue with Google <i class="fab fa-google me-2"></i>
+                        </button>
+
+                        <button type="button" class="btn btn-outline-dark bg-white text-dark w-100">
+                            Continue with Facebook <i class="fab fa-facebook me-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Footer Section -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Logo and Address -->
+            <div class="col-md-2 text-center text-md-start">
+                <img src="Productimages/navlogo.png" alt="BabyZone Logo" class="footer-logo">
+                <div class="address">
+                    <p>4th street, Pallavaram,</p>
+                    <p>Near bus stand</p>
+                    <p>Madurai-234567</p>
+                </div>
+            </div>
+
+            <!-- Top Categories -->
+            <div class="col-md-2">
+                <div class="footer-section">
+                    <h6>Top Categories</h6>
+                    <div class="footer-links">
+                        <a href="#">Baby Fashion</a>
+                        <a href="#">Toys</a>
+                        <a href="#">Footwear & Accessories</a>
+                        <a href="#">Moms & Baby care</a>
+                        <a href="#">Furniture & Bedding</a>
+                        <a href="#">Rental services</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customer Support -->
+            <div class="col-md-2">
+                <div class="footer-section">
+                    <h6>Customer support</h6>
+                    <div class="footer-links">
+                        <a href="#">Help & Contact us</a>
+                        <a href="#">Delivery information</a>
+                        <a href="#">Track your order</a>
+                        <a href="#">Returns & exchange</a>
+                        <a href="#">Promotion Terms & conditions</a>
+                        <a href="#">Terms & conditions</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="col-md-2">
+                <div class="footer-section">
+                    <h6>Useful Links</h6>
+                    <div class="footer-links">
+                        <a href="#">Store finder</a>
+                        <a href="#">Sitemap</a>
+                        <a href="#">Fees and payments policy</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About BabyZone -->
+            <div class="col-md-2">
+                <div class="footer-section">
+                    <h6>About BabyZone</h6>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & conditions</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-2">
+                <div class="footer-section">
+                    <h6>Social Media</h6>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Font Awesome Icons -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
+
